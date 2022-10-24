@@ -45,8 +45,7 @@ function Navbar() {
                 <Link to='/books' onClick={showNavbarToggler}>My Books</Link>
                 <Link to='/media' onClick={showNavbarToggler}>Media And Achievements</Link>
                 <Link to='/work' onClick={showNavbarToggler}>Work</Link>
-                 <div className={styles.owner}>
-                    <LinkBtn onClick={showNavbarToggler} route='http://www.digital-focus.org/' color='black' bg='goldenrod' text='Go to Digital Focus' />
+                
                     <div className={styles.socials}>
                         <a  href='https://www.facebook.com/shinax4christ'  target="_blank" rel="noreferrer">
                             <BsFacebook />
@@ -61,7 +60,7 @@ function Navbar() {
                             <BsInstagram />
                         </a>
                     </div>
-                </div>
+        
             </div>
         }
     </div>

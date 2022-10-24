@@ -70,21 +70,20 @@
     
     
 }
-.owner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-}
-.owner .socials a{
+.socials a{
     margin-right: 10px;
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
-.owner .socials a:hover{
+.socials a:hover{
     color: goldenrod;
+}
+
+.navBtn {
+    width: 100px;
 }
 /* full screen responsiveness */
 
