@@ -1,0 +1,20 @@
+.linkBtn{
+    padding: 10px 20px;
+}
+.linkBtn > a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+
+.linkBtn > a:hover{
+    background-color: grey;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+}

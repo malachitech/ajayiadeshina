@@ -1,0 +1,32 @@
+.title{
+    text-align: center;
+    margin-top: 40px;
+}
+.work{
+    margin: 10px 30px;
+}
+.work > div{
+    margin: 10px 0;
+}
+
+.work > div > div{
+    margin: 20px 0;
+}
+
+
+@media only screen and (min-width: 1000px){
+    .work{
+        margin-top: 30px;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .workGroup{
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,17 @@
+.cardsGroup > *{
+    margin: 40px 0;
+}
+
+@media only screen and (min-width: 1000px){
+    .cardsGroup {
+        margin: 80px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cardsGroup > *{
+        width: 50%;
+    }
+
+}

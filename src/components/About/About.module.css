@@ -1,0 +1,40 @@
+.about{
+    margin: 0 40px;
+}
+.about >div > div{
+    margin-bottom: 20px;
+}
+.about .aboutDescription > div{
+    margin-bottom: 60px;
+}
+.about .title{
+    text-align: center;
+}
+.about .aboutImage{
+    width: 100%;
+}
+
+.about .aboutImage img{
+    width: 100%;
+}
+
+@media only screen and (min-width: 1000px){
+    .about{
+        margin: 80px 40px;
+    }
+
+    .aboutSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .aboutDescription{
+        width: 60%;
+        margin-right: 60px;
+    }
+
+    .about .aboutImage{
+        width: 30%;
+    }
+    
+}

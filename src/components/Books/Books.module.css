@@ -1,0 +1,44 @@
+.books{
+    margin: 0 40px;
+}
+
+.books > div{
+    margin-bottom: 20px;
+    
+}
+.books > div >div{
+    margin-bottom: 40px;
+}
+.books .imgs a{
+    text-decoration: none;
+    color: black;
+}
+.books .imgs div {
+    width: 100%;
+ }
+.books .imgs img{
+   width: 100%;
+   margin-top: 20px;
+}
+
+
+
+@media only screen and (min-width: 1000px){
+    .books{
+        margin-top: 80px;
+
+    }
+
+    .books .imgs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .books .imgs > div{
+        margin: 10px 50px;
+
+    }
+
+}

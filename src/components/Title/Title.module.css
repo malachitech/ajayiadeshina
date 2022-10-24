@@ -1,0 +1,8 @@
+.subtitle{
+    text-transform: uppercase;
+    color: goldenrod;
+}
+
+.title{
+    text-transform: capitalize;
+}

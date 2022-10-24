@@ -1,0 +1,42 @@
+.cto{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 20%), url(../images/ajayimg.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 1.25rem;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ctodecription{
+    color: rgb(207, 204, 204);
+    width: 90%;
+}
+
+.ctobtn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toBottom{
+    color: white;
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 1000px){
+    .cto{
+        background-position: top;
+    }
+    
+	.ctodecription{
+        color: rgb(207, 204, 204);
+        width: 70%;
+    }
+}

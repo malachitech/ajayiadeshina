@@ -1,0 +1,101 @@
+.navbar{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: rgba(238, 235, 235, 0.966);
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar div h1{
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.toggler{
+    display: block;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    color: black;
+}
+
+.toggler:hover{
+    color: goldenrod;
+}
+
+.dropDownMenu{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 0;
+    padding: 1rem 3rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    transition: 0.5s  ease-in-out;
+}
+
+.dropDownMenu > a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+    border-bottom: .5px solid rgba(218, 165, 32, 0.322);
+}
+
+.dropDownMenu > a:hover {
+    color: goldenrod;
+    border-bottom: .5px solid white;
+}
+.fullScreenMenu{
+    display: none;
+
+}
+.fullScreenMenu > a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding: 6px 10px;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+}
+.fullScreenMenu > a:hover{
+    background-color: black;
+    color: white;
+    
+    
+}
+.owner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.owner .socials a{
+    margin-right: 10px;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.owner .socials a:hover{
+    color: goldenrod;
+}
+/* full screen responsiveness */
+
+
+@media only screen and (min-width: 1000px){
+	.fullScreenMenu{
+        display: flex;
+        align-items: center;
+    }
+    
+    .toggler{
+        display: none;
+    }
+}
