@@ -2,7 +2,7 @@ import React from 'react'
 import SubTitle from '../Title/SubTitle'
 import Title from '../Title/Title'
 import styles from './About.module.css'
-import img from '../images/ajayimg.JPG'
+import imgOne from '../images/ajayimg.JPG'
 
 function About() {
   return (
@@ -84,7 +84,7 @@ function About() {
 
             <div className={styles.aboutImage}>
                 <Title color='black' text='Adeshina Ajayi' />
-                <img src={img} alt='ajayi adeshina&apos;s image' />
+                <img src={imgOne} alt='ajayi adeshina&apos;s image' />
             </div>
 
         </div>
