@@ -13,10 +13,12 @@ function CTO() {
 
         <div className={styles.ctodecription}>
             <p>
-                Highly competent Blockchain leader with over six (6) years of global accomplishment in Blockchain Technology
-                and ten (10) years of accomplishment in business leadership, culture shaper, problem solver and leading 
-                authority in Blockchain in Nigeria with the certification of over two thousand (2,000) Blockchain experts 
-                across Nigeria.
+                Hi, I am Adeshina Ajayi. I am arguably Africa’s foremost blockchain expert and tech educator.   
+                In the last 6years, I have helped corporate institutions and individuals to understand the relevance of blockchain 
+                technology and positioned them to take their stake in the fast emerging tech space.   I do this through my blockchain 
+                consulting and education firm, Digital Focus.   I have provided blockchain solutions to top institutions from different 
+                sectors like CMC Connect, Alpha Training Lab (ATL), Nerdzfactory, TLCGLOBAL, Truwiters, Addicio Solutions, Code Tutor 
+                to mention a few. My academy, Digital Focus Academy has certified over two thousand (2,000) Blockchain Experts across Nigeria.
             </p>
         </div>
 

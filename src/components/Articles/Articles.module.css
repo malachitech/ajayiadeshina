@@ -2,24 +2,24 @@
     text-align: center;
     margin-top: 40px;
 }
-.work{
+.articles{
     margin: 10px 30px;
 }
-.work > div{
+.articles > div{
     margin: 10px 0;
 }
 
-.work > div > div{
+.articles > div > div{
     margin: 20px 0;
 }
 
-.workdone ul li {
+/* .workdone ul li {
     font-size: 1.1em;
     font-weight: 600;
-}
+} */
 
 @media only screen and (min-width: 1000px){
-    .work{
+    .articles{
         margin-top: 30px;
         width: 60%;
         display: flex;
@@ -34,9 +34,9 @@
     }
 
     
-.workdone ul li {
+/* .workdone ul li {
     font-size: 1.3em;
     font-weight: 600;
-}
+} */
 
 }
