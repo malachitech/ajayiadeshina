@@ -21,7 +21,14 @@
    margin-top: 20px;
 }
 
-
+.blockchainpathway p {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.wealthtransfer p{
+    font-size: 1.1em;
+    font-weight: 600;
+}
 
 @media only screen and (min-width: 1000px){
     .books{
@@ -41,4 +48,13 @@
 
     }
 
+    
+.blockchainpathway p {
+    font-size: 1.3em;
+
+}
+.wealthtransfer p{
+    font-size: 1.3em;
+
+}
 }

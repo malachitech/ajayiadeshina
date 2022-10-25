@@ -13,6 +13,10 @@
     margin: 20px 0;
 }
 
+.workdone ul li {
+    font-size: 1.1em;
+    font-weight: 600;
+}
 
 @media only screen and (min-width: 1000px){
     .work{
@@ -28,5 +32,11 @@
         justify-content: center;
         flex-direction: column;
     }
+
+    
+.workdone ul li {
+    font-size: 1.3em;
+    font-weight: 600;
+}
 
 }
