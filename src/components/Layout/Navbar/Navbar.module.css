@@ -57,7 +57,7 @@
 }
 .fullScreenMenu > a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin-right: 10px;
     padding: 6px 10px;
     text-transform: uppercase;
@@ -65,8 +65,8 @@
     border-radius: 10px;
 }
 .fullScreenMenu > a:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     
     
 }
