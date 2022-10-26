@@ -24,11 +24,11 @@ function Books() {
                     </span>
                     <img src='http://www.digital-focus.org/ebooks/The_Blockchain_Pathway2.jpg' alt='the blockchain pathway'/>
                     
-                    <div className={styles.download}>
+                    {/* <div className={styles.download}>
                         <a href='https://drive.google.com/uc?export=download&id=1Camy2ohcd3uiAnvhCiH17wLcoSDyQqyp'>
                             Download
                         </a>
-                    </div>
+                    </div> */}
                     
                 </div>
 
@@ -56,11 +56,11 @@ function Books() {
                     <img src='http://www.digital-focus.org/ebooks/Wealth_Transfer2.jpg' alt='the blockchain pathway'/>
 
 
-                    <div className={styles.download}>
+                    {/* <div className={styles.download}>
                         <a href='https://drive.google.com/uc?export=download&id=1eNXm9qA_h6tLmhNAHcKkllG8SoYijl5a'>
                             Download
                         </a>
-                    </div>
+                    </div> */}
                     
                 </div>
             </div>
