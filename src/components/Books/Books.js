@@ -51,7 +51,7 @@ function Books() {
 
                     </p>
                     <span>
-                    Price: N5,000
+                        Price: N5,000
                     </span>
                     <img src='http://www.digital-focus.org/ebooks/Wealth_Transfer2.jpg' alt='the blockchain pathway'/>
 
