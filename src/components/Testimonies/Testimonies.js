@@ -41,7 +41,7 @@ function Testimonies() {
                     Olaleye Awe
                 </div>
                 <div className={styles.writerTitle}>
-                    Founder Alpha Training Lab (ATL
+                    Founder Alpha Training Lab (ATL)
                 </div>
             </div>
 
@@ -66,7 +66,7 @@ function Testimonies() {
                     <BsStarFill /> <BsStarFill /> <BsStarFill /> <BsStarFill /> <BsStarFill />
                 </div>
                 <div className={styles.thetestimony}>
-                    Mr. Ajayi is the brightest mine I have learned from and worked with in the blockchain sector
+                    Mr. Ajayi is the brightest mind I have learned from and worked with in the blockchain sector
                 </div>
                 <div className={styles.writer}>
                     Raymond Asogwa 

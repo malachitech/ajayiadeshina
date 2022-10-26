@@ -4,16 +4,19 @@ import SubTitle from '../../Title/SubTitle'
 import Title from '../../Title/Title'
 import styles from '../Home.module.css'
 import {BsChevronDown} from "react-icons/bs";
+import { Link } from 'react-router-dom'
 
 function CTO() {
   return (
     <div className={styles.cto}>
-        <SubTitle text='BLOCKCHAIN LEADER' />
-        <Title text='Certified Management Consultant' color='white' />
+        <div className={styles.entry}>
+            <Title text='Hi,' color='goldenrod' />
+        </div>
+        
 
         <div className={styles.ctodecription}>
             <p>
-                Hi, I am Adeshina Ajayi. I am arguably Africa’s foremost blockchain expert and tech educator.   
+                I am Adeshina Ajayi. I am arguably Africa&apos;s foremost blockchain expert and tech educator.   
                 In the last 6years, I have helped corporate institutions and individuals to understand the relevance of blockchain 
                 technology and positioned them to take their stake in the fast emerging tech space.   I do this through my blockchain 
                 consulting and education firm, Digital Focus.   I have provided blockchain solutions to top institutions from different 
@@ -24,11 +27,15 @@ function CTO() {
 
         <div className={styles.ctobtn}>
             <div className={styles.more}>
-                <LinkBtn route='/about' text='MORE' color='black' bg='goldenrod' />
+                <Link to='/about'>
+                    More
+                </Link>
             </div>
 
             <div className={styles.contact}>
-                <LinkBtn route='/about' text='CONTACT' color='goldenrod' bg='black' />
+                <Link to='/about'>
+                    Contact
+                </Link>
             </div>
         </div>
 

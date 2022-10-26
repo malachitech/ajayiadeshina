@@ -36,6 +36,35 @@
     font-weight: 600;
 }
 
+.more a, .contact a {
+    text-decoration: none;
+    color: black;
+    background-color: goldenrod;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 1.25rem;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+.more a{
+    color: black;
+    background-color: goldenrod;
+}
+.contact a{
+    color: goldenrod;
+    background-color: black;
+}
+.more a:hover{
+    color: goldenrod;
+    background-color: black;
+}
+.contact a:hover{
+    color: black;
+    background-color: goldenrod;
+}
 @media only screen and (min-width: 1000px){
     .cto{
         background-position: top;

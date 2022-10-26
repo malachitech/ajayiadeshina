@@ -4,6 +4,7 @@ import { BsFillMenuButtonWideFill, BsFillPersonFill } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 import LinkBtn from '../../Button/LinkBtn';
 import { BsFacebook, BsLinkedin, BsTwitter, BsInstagram } from "react-icons/bs";
+import logo from '../../images/logo.jpg'
 
 function Navbar() {
     const [showNavbar, setShowNavbar]  = useState(false)
@@ -15,9 +16,9 @@ function Navbar() {
     <div className={styles.navbar}>
         {/* project name */}
         <div>
-            <h1>
-                <BsFillPersonFill /> Adeshina Ajayi
-            </h1>
+            
+                <img src={logo} alt="ajayi adeshina" height='40px' width='120px' />
+
         </div>
 
         {/* navigation */}
@@ -30,10 +31,10 @@ function Navbar() {
             <Link to='/'>Home</Link>
             <Link to='/about'>About</Link>
             <Link to='/books'>My Books</Link>
-            <Link to='/media'>Media And Achievements</Link>
+            <Link to='/media'>Media Mention</Link>
             <Link to='/articles'>Blockchain Articles</Link>
             <Link to='/testimonies'>Testimonies</Link>
-            <Link to='/works'>Works</Link>
+            <Link to='/works'>Work</Link>
             <div className={styles.owner}>
                 <LinkBtn route='http://www.digital-focus.org/' color='black' bg='goldenrod' text='Go to Digital Focus' />
             </div>
@@ -45,10 +46,10 @@ function Navbar() {
                 <Link to='/' onClick={showNavbarToggler}>Home</Link>
                 <Link to='/about' onClick={showNavbarToggler}>About</Link>
                 <Link to='/books' onClick={showNavbarToggler}>My Books</Link>
-                <Link to='/media' onClick={showNavbarToggler}>Media And Achievements</Link>
+                <Link to='/media' onClick={showNavbarToggler}>Media Mention</Link>
                 <Link to='/articles' onClick={showNavbarToggler}>Blockchain Articles</Link>
                 <Link to='/testimonies' onClick={showNavbarToggler}>Testimonies</Link>
-                <Link to='/works' onClick={showNavbarToggler}>Works</Link>
+                <Link to='/works' onClick={showNavbarToggler}>Work</Link>
 
                     <div className={styles.socials}>
                         <a  href='https://www.facebook.com/shinax4christ'  target="_blank" rel="noreferrer">

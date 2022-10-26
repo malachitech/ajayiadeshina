@@ -5,9 +5,7 @@ import styles from './Books.module.css'
 function Books() {
   return (
     <div  className={styles.books} >
-        <div style={{textAlign: 'center'}}>
-            <Title text='I AUTHORED THESE BOOKS' />
-        </div>
+        
 
         <div className={styles.imgs} >
 
@@ -67,30 +65,28 @@ function Books() {
                 </div>
             </div>
 
-            <div className={styles.wealthtransfer}>
-                
-                <Title text='A Word from the publisher. ' />
-                <p>
-
-                    “Mr. Adeshina Ajayi is the leading voice on Blockchain Technology in Nigeria and we are proud to be 
-                    associated with the ground breaking work he is doing in the industry. We have worked with 
-                    Mr. Ajayi on two book projects titled: The Blockchain Pathway and Wealth Transfer.” 
-                
-                <span>
-                    Michael Ace
-
-                    Founder, ACEworld Publishers.
-                </span>
-                    
-
-                        
-
-                    </p>
-                
-            </div>
             
             
         </div>
+        <div className={styles.recommendation}>
+                
+                <Title text='A Word from the publisher. ' color='goldenrod' />
+                <p  style={{color: 'white'}}>
+                    “Mr. Adeshina Ajayi is the leading voice on Blockchain Technology in Nigeria and we are proud to be 
+                    associated with the ground breaking work he is doing in the industry. We have worked with 
+                    Mr. Ajayi on two book projects titled: The Blockchain Pathway and Wealth Transfer.” 
+               
+                </p>
+
+                <div style={{marginTop: '20px', color: 'goldenrod'}}>
+                    Michael Ace
+
+                    Founder, ACEworld Publishers.
+                </div>
+                    
+                
+        </div>
+            
     </div>
   )
 }

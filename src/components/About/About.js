@@ -83,7 +83,6 @@ function About() {
         
 
             <div className={styles.aboutImage}>
-                <Title color='black' text='Adeshina Ajayi' />
                 <img src={imgOne} alt='ajayi adeshina&apos;s' />
             </div>
 

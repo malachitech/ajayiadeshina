@@ -9,7 +9,7 @@ function Articles() {
     <div className={styles.articles}>
         <div className={styles.title}>
             <SubTitle text='Blockchain Articles' />
-            <Title text='Contribution to the learning world' color='black' />
+            <Title text='Contribution to the learning world of blockchain technology' color='black' />
         </div>
 
         <div className={styles.articleGroup}>
