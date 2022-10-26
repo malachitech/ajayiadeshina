@@ -1,3 +1,7 @@
+.cardsGroup{
+    margin: 80px 0;
+}
+
 .cardsGroup > *{
     margin: 40px 0;
 }

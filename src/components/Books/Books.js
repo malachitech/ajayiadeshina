@@ -19,10 +19,11 @@ function Books() {
                         If you seek to make  informed decisions and you want to own a stake in the new groundbreaking 
                         blockchain technology, this book is the right book for you.
                     </p>
-                    <span>
+                    <span style={{fontSize: '1.1em', fontWeight: 'bold', color: 'goldenrod'}}>
                         Price: N5,000
                     </span>
                     <img src='http://www.digital-focus.org/ebooks/The_Blockchain_Pathway2.jpg' alt='the blockchain pathway'/>
+                    
                     
                     {/* <div className={styles.download}>
                         <a href='https://drive.google.com/uc?export=download&id=1Camy2ohcd3uiAnvhCiH17wLcoSDyQqyp'>
@@ -50,7 +51,7 @@ function Books() {
                         
 
                     </p>
-                    <span>
+                    <span style={{fontSize: '1.1em', fontWeight: 'bold', color: 'goldenrod'}}>
                         Price: N5,000
                     </span>
                     <img src='http://www.digital-focus.org/ebooks/Wealth_Transfer2.jpg' alt='the blockchain pathway'/>
@@ -64,9 +65,19 @@ function Books() {
                     
                 </div>
             </div>
+                    <hr />
+            <div>
+                <p style={{fontWeight: 'bold'}}>
+                    Place an order by sending an email to the address below, with the book title of your choice as the subject of the mail
+                     , and book would be delivered to you shortly after payment.
+                </p>
 
-            
-            
+                <p className={styles.sendEmail}>
+                <a href ="mailto:ajayiadeshina5@gmail.com">Send Email</a>
+                    
+                </p>
+            </div>
+                    <hr  />
         </div>
         <div className={styles.recommendation}>
                 
