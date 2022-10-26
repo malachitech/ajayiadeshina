@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import styles from './Navbar.module.css'
-import { BsFillMenuButtonWideFill, BsFillPersonFill } from "react-icons/bs";
+import { BsFillMenuButtonWideFill } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 import LinkBtn from '../../Button/LinkBtn';
 import { BsFacebook, BsLinkedin, BsTwitter, BsInstagram } from "react-icons/bs";

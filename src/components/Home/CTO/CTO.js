@@ -1,6 +1,4 @@
 import React from 'react'
-import LinkBtn from '../../Button/LinkBtn'
-import SubTitle from '../../Title/SubTitle'
 import Title from '../../Title/Title'
 import styles from '../Home.module.css'
 import {BsChevronDown} from "react-icons/bs";
