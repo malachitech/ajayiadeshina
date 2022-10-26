@@ -65,7 +65,9 @@ function Books() {
                     
                 </div>
             </div>
-                    <hr />
+                   
+        </div>
+        <hr />
             <div>
                 <p style={{fontWeight: 'bold'}}>
                     Place an order by sending an email to the address below, with the book title of your choice as the subject of the mail
@@ -78,7 +80,6 @@ function Books() {
                 </p>
             </div>
                     <hr  />
-        </div>
         <div className={styles.recommendation}>
                 
                 <Title text='A Word from the publisher. ' color='goldenrod' />
