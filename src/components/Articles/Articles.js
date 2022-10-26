@@ -12,7 +12,7 @@ function Articles() {
             <Title text='Contribution to the learning world' color='black' />
         </div>
 
-        <div className={styles.workGroup}>
+        <div className={styles.articleGroup}>
 
         <Cards 
             title='INTERNATIONAL COUNCIL OF MANAGEMENT CONSULTING INSTITUTES (2022)' 

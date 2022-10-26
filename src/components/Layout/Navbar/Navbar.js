@@ -31,7 +31,9 @@ function Navbar() {
             <Link to='/about'>About</Link>
             <Link to='/books'>My Books</Link>
             <Link to='/media'>Media And Achievements</Link>
-            <Link to='/articles'>Work</Link>
+            <Link to='/articles'>Blockchain Articles</Link>
+            <Link to='/testimonies'>Testimonies</Link>
+            <Link to='/works'>Works</Link>
             <div className={styles.owner}>
                 <LinkBtn route='http://www.digital-focus.org/' color='black' bg='goldenrod' text='Go to Digital Focus' />
             </div>
@@ -44,8 +46,10 @@ function Navbar() {
                 <Link to='/about' onClick={showNavbarToggler}>About</Link>
                 <Link to='/books' onClick={showNavbarToggler}>My Books</Link>
                 <Link to='/media' onClick={showNavbarToggler}>Media And Achievements</Link>
-                <Link to='/articles' onClick={showNavbarToggler}>Work</Link>
-                
+                <Link to='/articles' onClick={showNavbarToggler}>Blockchain Articles</Link>
+                <Link to='/testimonies' onClick={showNavbarToggler}>Testimonies</Link>
+                <Link to='/works' onClick={showNavbarToggler}>Works</Link>
+
                     <div className={styles.socials}>
                         <a  href='https://www.facebook.com/shinax4christ'  target="_blank" rel="noreferrer">
                             <BsFacebook />
