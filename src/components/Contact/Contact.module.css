@@ -1,4 +1,4 @@
-.cto{
+.contact{
     /* background-image: linear-gradient(to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 20%), url(../images/ajayimg.JPG);
     background-position: center;
     background-size: cover;
@@ -14,39 +14,39 @@
     background-color: silver;
 
 }
-.ctoimg{
+.contactimg{
     height: 40%;
     width: 100vw;
     margin-top: 10px;
 }
-.ctoimg img{
+.contactimg img{
     height: 100%;
     width: 100%;
 }
-.ctotxt{
+.contacttxt{
     margin-bottom: 20px;
 
 }
-.ctodecription{
+.contactdecription{
     color: rgb(207, 204, 204);
     width: 90%;
     line-height: 2;
 }
 
-.ctobtn{
+.contactbtn{
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.toBottom{
+/* .toBottom{
     color: white;
     font-size: 2rem;
-}
+} */
 
-.ctodecription p{
-    font-size: 1em;
+.contactdecription p{
+    font-size: 1.3em;
     font-weight: 600;
     color: black;
 }
@@ -68,7 +68,7 @@
     color: black;
     background-color: goldenrod;
 }
-.contact a{
+.home a{
     color: goldenrod;
     background-color: black;
 }
@@ -76,12 +76,12 @@
     color: goldenrod;
     background-color: black;
 }
-.contact a:hover{
+.home a:hover{
     color: black;
     background-color: goldenrod;
 }
 @media only screen and (min-width: 1000px){
-    .cto{
+    .contact{
         flex-direction: row;
         margin-top: 0px;
         height: 100vh;
@@ -91,25 +91,25 @@
 
     }
     
-	.ctotxt{
+	.contacttxt{
         color: black;
         width: 60%;
         margin-right: 20px;
 
     }
-    .ctodecription{
+    .contactdecription{
         width: 100%;
     }
-    .ctodecription p{
+    .contactdecription p{
         font-size: 1.4em;
     }
-    .ctoimg{
+    .contactimg{
         height: 100%;
         width: 35%;
     margin-bottom: 0px;
 
     }
-    .ctoimg img{
+    .contactimg img{
         height: 100%;
         width: 100%;
     }

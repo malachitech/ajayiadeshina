@@ -17,8 +17,23 @@ function Navbar() {
         {/* project name */}
         <div>
             
-                <img src={logo} alt="ajayi adeshina" height='40px' width='120px' />
+            <img src={logo} alt="ajayi adeshina" height='40px' width='120px' />
 
+        </div>
+        
+        <div className={styles.socials}>
+            <a  href='https://www.facebook.com/shinax4christ'  target="_blank" rel="noreferrer">
+                <BsFacebook />
+            </a>
+            <a href='https://www.linkedin.com/in/adeshina-ajayi-57388916b'  target="_blank" rel="noreferrer">
+                <BsLinkedin />
+            </a>
+            <a href='https://twitter.com/ajayiadeshinam'  target="_blank" rel="noreferrer">
+                <BsTwitter />
+            </a>
+            <a href='https://www.instagram.com/invites/contact/?i=1cdwn817bf8g1&utm_content=1cj7j23'  target="_blank" rel="noreferrer">
+                <BsInstagram />
+            </a>
         </div>
 
         {/* navigation */}

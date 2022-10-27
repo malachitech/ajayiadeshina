@@ -7,6 +7,7 @@ import MediaAndAchievementsScreen from './components/Screen/MediaAndAchievements
 import ArticlesScreen from './components/Screen/ArticlesScreen/ArticlesScreen'
 import TestimoniesScreen from './components/Screen/TestimoniesScreen/TestimoniesScreen'
 import WorksScreen from './components/Screen/WorksScreen/WorksScreen'
+import ContactScreen from './components/Screen/ContactScreen/ContactScreen'
 
 function Router() {
   return (
@@ -19,6 +20,7 @@ function Router() {
             <Route path='/articles' element={<ArticlesScreen />} />
             <Route path='/testimonies' element={<TestimoniesScreen />} />
             <Route path='/works' element={<WorksScreen />} />
+            <Route path='/contact' element={<ContactScreen />} />
         </Routes>
     </div>
   )

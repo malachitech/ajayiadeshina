@@ -1,7 +1,6 @@
 import React from 'react'
 import Title from '../../Title/Title'
 import styles from '../Home.module.css'
-import {BsChevronDown} from "react-icons/bs";
 import { Link } from 'react-router-dom'
 import img from '../../images/ajayi.jpg'
 
@@ -34,15 +33,12 @@ function CTO() {
             </div>
 
             <div className={styles.contact}>
-                <Link to='/about'>
+                <Link to='/contact'>
                     Contact
                 </Link>
             </div>
         </div>
 
-        <div className={styles.toBottom}>
-            <BsChevronDown />
-        </div>
         </div>
 
         <div className={styles.ctoimg}>

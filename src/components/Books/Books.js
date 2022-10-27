@@ -19,7 +19,7 @@ function Books() {
                         If you seek to make  informed decisions and you want to own a stake in the new groundbreaking 
                         blockchain technology, this book is the right book for you.
                     </p>
-                    <span style={{fontSize: '1.1em', fontWeight: 'bold', color: 'goldenrod'}}>
+                    <span style={{fontSize: '1.3em', fontWeight: 'bold', color: 'red'}}>
                         Price: N5,000
                     </span>
                     <img src='http://www.digital-focus.org/ebooks/The_Blockchain_Pathway2.jpg' alt='the blockchain pathway'/>
@@ -51,7 +51,7 @@ function Books() {
                         
 
                     </p>
-                    <span style={{fontSize: '1.1em', fontWeight: 'bold', color: 'goldenrod'}}>
+                    <span style={{fontSize: '1.3em', fontWeight: 'bold', color: 'red'}}>
                         Price: N5,000
                     </span>
                     <img src='http://www.digital-focus.org/ebooks/Wealth_Transfer2.jpg' alt='the blockchain pathway'/>
@@ -67,37 +67,41 @@ function Books() {
             </div>
                    
         </div>
-        <hr />
-            <div>
-                <p style={{fontWeight: 'bold'}}>
-                    Place an order by sending an email to the address below, with the book title of your choice as the subject of the mail
-                     , and book would be delivered to you shortly after payment.
-                </p>
+        
+            
+            <div className={styles.recommendationCover}>
+                <div className={styles.order}>
+                    <Title text='Get a copy' />
+                    <hr />
+                    <p style={{fontWeight: 'bold', margin:'30px 10px'}}>
+                        Place an order by calling <span  style={{color: 'goldenrod'}}>09053515713</span> and book of choice would be delivered to you shortly after payment.
+                    </p>
 
-                <p className={styles.sendEmail}>
-                <a href ="mailto:ajayiadeshina5@gmail.com">Send Email</a>
-                    
-                </p>
-            </div>
-                    <hr  />
-        <div className={styles.recommendation}>
-                
-                <Title text='A Word from the publisher. ' color='goldenrod' />
-                <p  style={{color: 'white'}}>
-                    “Mr. Adeshina Ajayi is the leading voice on Blockchain Technology in Nigeria and we are proud to be 
-                    associated with the ground breaking work he is doing in the industry. We have worked with 
-                    Mr. Ajayi on two book projects titled: The Blockchain Pathway and Wealth Transfer.” 
-               
-                </p>
-
-                <div style={{marginTop: '20px', color: 'goldenrod'}}>
-                    Michael Ace
-
-                    Founder, ACEworld Publishers.
+                    <hr />
                 </div>
+
+                <div className={styles.recommendation}>
                     
+                    <Title text='A Word from the publisher. ' color='goldenrod' />
+                    <p  style={{color: 'white',}}>
+                        “Mr. Adeshina Ajayi is the leading voice on Blockchain Technology in Nigeria and we are proud to be 
+                        associated with the ground breaking work he is doing in the industry. We have worked with 
+                        Mr. Ajayi on two book projects titled: The Blockchain Pathway and Wealth Transfer.” 
                 
-        </div>
+                    </p>
+
+                    <div style={{marginTop: '20px', color: 'goldenrod', textAlign: 'center'}}>
+                        Michael Ace
+                        <p>
+                        Founder, ACEworld Publishers.
+                        </p>
+                    </div>
+                        
+                    
+                </div>
+            </div>
+                    
+        
             
     </div>
   )
