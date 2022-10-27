@@ -90,10 +90,12 @@
     }
     .ctoimg{
         height: 100%;
+        width: 40vw;
         margin-bottom: 30px;
     }
     .ctoimg img{
         height: 100%;
+        width: 100%;
     }
     
 }
