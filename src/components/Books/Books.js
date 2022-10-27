@@ -74,7 +74,7 @@ function Books() {
                     <Title text='Get a copy' />
                     <hr />
                     <p style={{fontWeight: 'bold', margin:'30px 10px'}}>
-                        Place an order by calling <span  style={{color: 'goldenrod'}}>09053515713</span> and book of choice would be delivered to you shortly after payment.
+                        Place an order by calling <span  style={{color: 'goldenrod'}}>09053515713</span> and the book of your choice would be delivered to you shortly after payment.
                     </p>
 
                     <hr />
