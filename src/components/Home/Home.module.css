@@ -83,15 +83,17 @@
     
 	.ctodecription{
         color: black;
-        width: 50%;
+        width: 70%;
+
     }
     .ctodecription p{
         font-size: 1.1em;
     }
     .ctoimg{
         height: 100%;
-        width: 100%;
+        width: 150vw;
         margin-bottom: 30px;
+
     }
     .ctoimg img{
         height: 100%;
