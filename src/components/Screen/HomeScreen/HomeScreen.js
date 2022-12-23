@@ -1,10 +1,10 @@
 import React from 'react'
 import Home from '../../Home/Home'
 
-function HomeScreen() {
+function HomeScreen({darkMode, toggleDarkMode}) {
   return (
     <div>
-        <Home />
+        <Home toggleDarkMode={toggleDarkMode} darkMode={darkMode}/>
     </div>
   )
 }

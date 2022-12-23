@@ -4,12 +4,12 @@ import Title from '../Title/Title'
 import styles from './About.module.css'
 import imgOne from '../images/ajayimg.JPG'
 
-function About() {
+function About({darkMode}) {
   return (
     <div className={styles.about}>
 
         <div className={styles.title}>
-            <Title color='black' text='About Me' />
+            <Title color={darkMode? 'white': 'black'} text='About Me' />
         </div>
 
         <div className={styles.aboutSection}>

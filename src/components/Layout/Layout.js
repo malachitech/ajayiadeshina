@@ -2,16 +2,17 @@ import React from 'react'
 import Footer from './Footer/Footer'
 import Navbar from './Navbar/Navbar'
 
-function Layout({children}) {
+function Layout({children, toggleDarkMode, darkMode}) {
+ 
   return (
     <div>
-        <Navbar />
+        <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode}/>
 
-          <div style={{marginTop: '50px'}} >
+          <div style={{marginTop: '50px'}}>
               {children}
           </div>
 
-        <Footer />
+        <Footer toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
     </div>
   )
 }

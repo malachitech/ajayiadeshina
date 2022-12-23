@@ -4,17 +4,24 @@ import styles from '../Home.module.css'
 import { Link } from 'react-router-dom'
 import img from '../../images/ajayi.jpg'
 
-function CTO() {
+function CTO({darkMode}) {
+    console.log(darkMode)
   return (
-    <div className={styles.cto}>
+    <div className={styles.cto}
+        style={darkMode? {backgroundColor: 'black', color: 'white'}: 
+        {backgroundColor: 'silver', color: 'black'}}
+    >
         <div className={styles.ctotxt}>
         <div className={styles.entry}>
             <Title text='Hi,' color='goldenrod' />
         </div>
         
 
-        <div className={styles.ctodecription}>
-            <p>
+        <div className={styles.ctodecription}
+        
+        >
+            <p style={darkMode? {color: 'white'}: 
+        {color: 'black'}}>
                 I am Adeshina Ajayi. I am arguably Africa&apos;s foremost blockchain expert and tech educator.   
                 In the last 6years, I have helped corporate institutions and individuals to understand the relevance of blockchain 
                 technology and positioned them to take their stake in the fast emerging tech space.   I do this through my blockchain 

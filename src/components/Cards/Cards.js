@@ -4,7 +4,7 @@ import SubTitle from '../Title/SubTitle'
 import Title from '../Title/Title'
 import styles from './Cards.module.css'
 
-function Cards({title, description, link}) {
+function Cards({title, description, link, darkMode}) {
   return (
     
     <div className={styles.card}>
@@ -17,7 +17,7 @@ function Cards({title, description, link}) {
         </div>
         
         <div className={styles.cardBtn}>
-            <LinkBtn route={link} text='More-->' color='goldenrod' bg='black' />
+            <LinkBtn route={link} text='More-->' color={darkMode? 'black':'goldenrod'} bg={darkMode? 'white':'black'} />
         </div>
         
     </div>

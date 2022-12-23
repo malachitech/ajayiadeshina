@@ -1,5 +1,5 @@
 .testimonies{
-    margin-top: 80px;
+    padding-top: 60px;
 }
 
 .title{
@@ -23,7 +23,7 @@
     margin: 1.25rem;
     background-color: rgba(238, 238, 238, 0.801);
     padding: 1.25rem;
-    height: 30vh;
+    /* height: 30vh; */
     border-radius: 20px;
 }
 .testimonycard > *{
@@ -51,28 +51,11 @@
     
     .testimonycard{
         width: 80%;
-        /* margin: 1.25rem;
-        background-color: rgba(238, 238, 238, 0.801);
-        padding: 1.25rem;
+        margin: 40px 0;
         height: 30vh;
-        border-radius: 20px; */
+        background-color: rgba(238, 238, 238, 0.801);
+        
+        
     }
-    /* .testimonycard > *{
-        margin: 10px 0;
-    }
-    .testimonycard .thetestimony{
-        font-size: 1.3em;
-        font-weight: bold;
-    }
-    .testimonycard .writer{
-        font-size: 1.2em;
-        font-weight: bold;
-        color: goldenrod;
-    }
-    
-    .writerTitle{
-        font-size: 1em;
-        font-weight: bold;
-    } */
     
 }

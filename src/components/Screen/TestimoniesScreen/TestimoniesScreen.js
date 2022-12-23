@@ -1,10 +1,11 @@
 import React from 'react'
 import Testimonies from '../../Testimonies/Testimonies'
 
-function TestimoniesScreen() {
+function TestimoniesScreen({darkMode}) {
   return (
-    <div>
-        <Testimonies />
+    <div style={darkMode? {backgroundColor: 'black'}: 
+    {backgroundColor: 'white'}}>
+        <Testimonies darkMode={darkMode}/>
     </div>
   )
 }

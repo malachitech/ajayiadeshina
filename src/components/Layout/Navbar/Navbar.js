@@ -5,14 +5,17 @@ import { Link } from 'react-router-dom';
 import LinkBtn from '../../Button/LinkBtn';
 import { BsFacebook, BsLinkedin, BsTwitter, BsInstagram } from "react-icons/bs";
 import logo from '../../images/logo.jpg'
+import {BsToggle2On, BsToggle2Off} from 'react-icons/bs'
 
-function Navbar() {
+function Navbar({toggleDarkMode, darkMode}) {
     const [showNavbar, setShowNavbar]  = useState(false)
 
     const showNavbarToggler = () => {
         setShowNavbar(prev => !prev)
     }
+    
   return (
+
     <div className={styles.navbar}>
         {/* project name */}
         <div>
@@ -36,10 +39,6 @@ function Navbar() {
             </a>
         </div>
 
-        {/* navigation */}
-        <div className={styles.toggler} onClick={showNavbarToggler}>
-            <BsFillMenuButtonWideFill />
-        </div>
 
         {/* full screen menu */}
         <div className={styles.fullScreenMenu}>
@@ -52,6 +51,21 @@ function Navbar() {
             <Link to='/works'>Work</Link>
             <div className={styles.owner}>
                 <LinkBtn route='http://www.digital-focus.org/' color='black' bg='goldenrod' text='Go to Digital Focus' />
+            </div>
+        </div>
+
+        <div className={styles.togglers}>
+            {/* dark moode toggler */}
+
+            <div className={styles.darkmodetoggler} onClick={toggleDarkMode}>
+                {darkMode? <BsToggle2On /> : <BsToggle2Off />}
+            </div>
+            
+            {/* navigation */}
+            <div className={styles.navToggler} onClick={showNavbarToggler}>
+            
+
+                <BsFillMenuButtonWideFill />
             </div>
         </div>
 
@@ -83,6 +97,7 @@ function Navbar() {
         
             </div>
         }
+        
     </div>
   )
 }

@@ -1,9 +1,10 @@
 import React from 'react'
 import Books from '../../Books/Books'
 
-function BooksScreen() {
+function BooksScreen({darkMode}) {
   return (
-    <div>
+    <div style={darkMode? {backgroundColor: 'black', color: 'white'}: 
+    {backgroundColor: 'white', color: 'black'}}>
         <Books />
     </div>
   )

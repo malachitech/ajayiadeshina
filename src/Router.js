@@ -9,18 +9,19 @@ import TestimoniesScreen from './components/Screen/TestimoniesScreen/Testimonies
 import WorksScreen from './components/Screen/WorksScreen/WorksScreen'
 import ContactScreen from './components/Screen/ContactScreen/ContactScreen'
 
-function Router() {
+function Router({toggleDarkMode, darkMode}) {
+   
   return (
     <div>
         <Routes>
-            <Route path='/' element={<HomeScreen />} />
-            <Route path='/about' element={<AboutScreen />} />
-            <Route path='/books' element={<BooksScreen  />} />
-            <Route path='/media' element={<MediaAndAchievementsScreen />} />
-            <Route path='/articles' element={<ArticlesScreen />} />
-            <Route path='/testimonies' element={<TestimoniesScreen />} />
-            <Route path='/works' element={<WorksScreen />} />
-            <Route path='/contact' element={<ContactScreen />} />
+            <Route path='/' element={<HomeScreen toggleDarkMode={toggleDarkMode} darkMode={darkMode} />} />
+            <Route path='/about' element={<AboutScreen toggleDarkMode={toggleDarkMode} darkMode={darkMode} />} />
+            <Route path='/books' element={<BooksScreen toggleDarkMode={toggleDarkMode} darkMode={darkMode} />} />
+            <Route path='/media' element={<MediaAndAchievementsScreen toggleDarkMode={toggleDarkMode} darkMode={darkMode} />} />
+            <Route path='/articles' element={<ArticlesScreen toggleDarkMode={toggleDarkMode} darkMode={darkMode} />} />
+            <Route path='/testimonies' element={<TestimoniesScreen toggleDarkMode={toggleDarkMode} darkMode={darkMode} />} />
+            <Route path='/works' element={<WorksScreen toggleDarkMode={toggleDarkMode} darkMode={darkMode} />} />
+            <Route path='/contact' element={<ContactScreen toggleDarkMode={toggleDarkMode} darkMode={darkMode} />} />
         </Routes>
     </div>
   )

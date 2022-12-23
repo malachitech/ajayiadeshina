@@ -2,10 +2,10 @@ import React from 'react'
 import CTO from './CTO/CTO'
 
 
-function Home() {
+function Home({toggleDarkMode,darkMode}) {
   return (
     <div>
-        <CTO />
+        <CTO toggleDarkMode={toggleDarkMode} darkMode={darkMode}/>
     </div>
   )
 }
