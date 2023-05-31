@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+.telegram{
+    color: rgb(93,165,249);
+    margin-bottom: -5px;
+}
+.title{
+    font-weight: bold;
+}
+.time{
+    margin-right: 3px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+/* .right{
+    display: flex;
+} */
+
+.connect{
+    display: flex;
+    align-items: center;
+}
+
+.imag img{
+    height: 30px;
+    background-color: rgb(238,238,238);
+    padding: 13px 2px;
+    border-radius: 6px;
+}
+
+.lists{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.listsItemsCont{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.rightarrow > *{
+    color: silver;
+    font-size: 30px;
+    float: right;
+    
+}
+
+.footlistCont{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+.footlist{
+   
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: white;
+    border-top: #eee;
+}
+.footlistItems{
+    text-align: center;
+    color: silver;
+}

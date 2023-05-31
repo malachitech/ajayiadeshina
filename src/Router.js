@@ -8,6 +8,7 @@ import ArticlesScreen from './components/Screen/ArticlesScreen/ArticlesScreen'
 import TestimoniesScreen from './components/Screen/TestimoniesScreen/TestimoniesScreen'
 import WorksScreen from './components/Screen/WorksScreen/WorksScreen'
 import ContactScreen from './components/Screen/ContactScreen/ContactScreen'
+import UberScreen from './components/Screen/UberScreen/UberScreen'
 
 function Router({toggleDarkMode, darkMode}) {
    
@@ -22,6 +23,7 @@ function Router({toggleDarkMode, darkMode}) {
             <Route path='/testimonies' element={<TestimoniesScreen toggleDarkMode={toggleDarkMode} darkMode={darkMode} />} />
             <Route path='/works' element={<WorksScreen toggleDarkMode={toggleDarkMode} darkMode={darkMode} />} />
             <Route path='/contact' element={<ContactScreen toggleDarkMode={toggleDarkMode} darkMode={darkMode} />} />
+            <Route path='/uber' element={<UberScreen />} />
         </Routes>
     </div>
   )
