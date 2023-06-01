@@ -4,40 +4,10 @@ import {MdOutlineKeyboardArrowRight}  from 'react-icons/md'
 function Listing() {
     const list = [
         {
-            id: 1,
-            title: 'Ikoyi 106104',
-            date: 'May 22 5:30 AM',
-            price: '₦7000'
-        },
-        {
-            id: 2,
+            id: 8,
             title: '10 Alimosho Rd',
-            date: 'May 22 8:34 PM',
-            price: '₦7500 '
-        },
-        {
-            id: 3,
-            title: 'Ikoyi 106104',
-            date: 'May 23 5:41AM',
-            price: '₦6500'
-        },
-        {
-            id: 4,
-            title: '10 Alimosho Rd',
-            date: 'May 23 9:10 PM',
-            price: '₦7500'
-        },
-        {
-            id: 5,
-            title: 'Ikoyi 106104',
-            date: 'May 24 5:20AM',
-            price: '₦6000 '
-        },
-        {
-            id: 6,
-            title: '10 Alimosho Rd',
-            date: 'May 24 9:30 PM',
-            price: '₦8000 '
+            date: 'May 25 5:25 PM',
+            price: '₦4000 '
         },
         {
             id: 7,
@@ -46,11 +16,43 @@ function Listing() {
             price: '₦7500 '
         },
         {
-            id: 8,
+            id: 6,
             title: '10 Alimosho Rd',
-            date: 'May 25 5:25 PM',
-            price: '₦4000 '
+            date: 'May 24 9:30 PM',
+            price: '₦8000 '
         },
+        {
+            id: 5,
+            title: 'Ikoyi 106104',
+            date: 'May 24 5:20AM',
+            price: '₦6000 '
+        },
+        {
+            id: 4,
+            title: '10 Alimosho Rd',
+            date: 'May 23 9:10 PM',
+            price: '₦7500'
+        },
+        {
+            id: 3,
+            title: 'Ikoyi 106104',
+            date: 'May 23 5:41AM',
+            price: '₦6500'
+        },
+        {
+            id: 2,
+            title: '10 Alimosho Rd',
+            date: 'May 22 8:34 PM',
+            price: '₦7500 '
+        },
+        {
+            id: 1,
+            title: 'Ikoyi 106104',
+            date: 'May 22 5:30 AM',
+            price: '₦7000'
+        },
+          
+        
         // {
         //     id: 9,
         //     title: '24b Eric Moore Street ',
@@ -68,7 +70,8 @@ function Listing() {
     <div>
         {
             list && list.map(lis => (
-                <div key={lis.id}>
+                <div>
+                <div key={lis.id} className='listsCont'>
                     <div className='lists'>
                         <div className='imag'>
                             <img src={car} alt='the' />
@@ -88,18 +91,24 @@ function Listing() {
                                 </div>
                             </div>
 
-                            <div className='rightarrow'>
-                                <MdOutlineKeyboardArrowRight />
-                            </div>
-                        
+                            
                         </div>
 
                         
                     </div>
+                    <div className='rightarrow'>
+                        <MdOutlineKeyboardArrowRight />
+                    </div>
+                        
                     
-                    <hr style={{
-                        marginLeft: "25%"
-                    }}/>
+                </div>
+
+                <hr style={{
+                    marginLeft: "25%",
+                    backgroundColor: "rgba(236, 236, 236)",
+                    border: 'none',
+                    height: 1,
+                }}/>
                 </div>
                 
             ))

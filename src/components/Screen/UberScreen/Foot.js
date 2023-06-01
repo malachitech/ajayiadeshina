@@ -1,6 +1,6 @@
 import React from 'react'
 import {RiFileList3Fill} from 'react-icons/ri'
-import {GrHomeRounded} from 'react-icons/gr'
+import {MdHomeFilled} from 'react-icons/md'
 import {BsGrid3X3GapFill} from 'react-icons/bs'
 import {IoPerson} from 'react-icons/io5'
 import "./UberScreen.css"
@@ -8,13 +8,13 @@ function Foot() {
     const footlist = [
         {
             id: 1,
-            logo: GrHomeRounded,
+            logo: MdHomeFilled,
             name: 'Home',
         },
         {
             id: 2,
             logo: BsGrid3X3GapFill,
-            name: 'Service',
+            name: 'Services',
         },
         {
             id: 3,
@@ -27,6 +27,15 @@ function Foot() {
             name: 'Account',
         }
     ]
+    
+        // console.log(footlist, "the list")
+    
+        // const makeBold = footlist.map(foot => {
+        //     if(foot.name == "Activity"){
+            
+        //     }
+        // })
+    
   return (
     <div className='footlistCont'>
         
@@ -36,12 +45,15 @@ function Foot() {
                 <div key={footlis.id}>
                     <div className='footlistItems'>
                         
-                        <div className='logo'>
-                            <footlis.logo />
-                        </div>
-                        <div className='name'>
-                            {footlis.name}
-                        </div>
+                        
+                        
+                                    <div className={`${footlis.name === "Activity" ? "activitylogo" : "logo"}`}>
+                                        <footlis.logo />
+                                    </div>
+                                    <div className={`${footlis.name === "Activity" ? "activityname" : "name"}`}>
+                                        {footlis.name}
+                                    </div>
+                                
                     </div>
                     
                 </div>
@@ -52,9 +64,9 @@ function Foot() {
         <hr  style={{
             color: 'black',
             backgroundColor: "black",
-            height: 3,
+            height: 5,
             textAlign: 'center',
-            marginLeft: 130, marginRight: 130
+            marginLeft: 120, marginRight: 120, marginBottom: 10, border: 'none', borderRadius: "20px"
         }}/>
     </div>
     
