@@ -70,8 +70,8 @@ function Listing() {
     <div>
         {
             list && list.map(lis => (
-                <div>
-                <div key={lis.id} className='listsCont'>
+                <div key={lis.id}>
+                <div  className='listsCont'>
                     <div className='lists'>
                         <div className='imag'>
                             <img src={car} alt='the' />
