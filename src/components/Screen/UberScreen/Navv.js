@@ -2,7 +2,7 @@ import React from 'react'
 import {BsTelegram, BsBatteryHalf}  from 'react-icons/bs'
 // import {GiNetworkBars}  from 'react-icons/gi'
 import {BiWifi2}  from 'react-icons/bi'
-import {LuSignalHigh} from 'react-icons/lu'
+import {CgSignal} from 'react-icons/cg'
 
 import './UberScreen.css'
 
@@ -23,7 +23,7 @@ function Navv() {
         <div className='right'>
             <div className='connect'>
                 <div className='network'>
-                    <LuSignalHigh />
+                    <CgSignal />
                 </div>
                 <div className='wifi'>
                     <BiWifi2 />
