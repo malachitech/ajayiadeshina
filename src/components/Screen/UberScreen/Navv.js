@@ -10,7 +10,7 @@ function Navv() {
     <div className='navv'>
         <div className='left'>
             <div className='time'>
-                4:00pm
+                11:00am
             </div>
             <div className='apps'>
                 <div className='telegram'>
