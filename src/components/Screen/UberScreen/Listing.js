@@ -51,9 +51,6 @@ function Listing() {
         //     date: 'May 22 5:30 AM',
         //     price: '7000.00'
         // },
-          
-        
-
         {
             id: 10,
             title: '12 Gloryfield Avenue',
@@ -66,6 +63,43 @@ function Listing() {
             date: 'May 30 9:00 AM',
             price: '4200.00'
         },
+        {
+            id: 11,
+            title: '12 Gloryfield Avenue',
+            date: 'May 26 5:17 AM',
+            price: '9700.00 · Canceled' 
+        },
+        {
+            id: 8,
+            title: '10 Alimosho Rd',
+            date: 'May 25 5:25 PM',
+            price: '4000.00'
+        },
+        {
+                id: 7,
+                title: 'Ikoyi 106104',
+                date: 'May 25 5:33AM',
+                price: '7500.00'
+            },
+            {
+                id: 6,
+                title: '10 Alimosho Rd',
+                date: 'May 24 9:30 PM',
+                price: '8000.00'
+            },
+            {
+                id: 5,
+                title: 'Ikoyi 106104',
+                date: 'May 24 5:20AM',
+                price: '6000.00'
+            },
+            {
+                id: 4,
+                title: '10 Alimosho Rd',
+                date: 'May 23 9:10 PM',
+                price: '7500.00'
+            },
+        
     ]
   return (
     <div>
