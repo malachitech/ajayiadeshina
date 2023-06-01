@@ -3,68 +3,69 @@ import car from "../../images/uber car 1.png"
 import {MdOutlineKeyboardArrowRight}  from 'react-icons/md'
 function Listing() {
     const list = [
-        {
-            id: 8,
-            title: '10 Alimosho Rd',
-            date: 'May 25 5:25 PM',
-            price: '4000.00'
-        },
-        {
-            id: 7,
-            title: 'Ikoyi 106104',
-            date: 'May 25 5:33AM',
-            price: '7500.00'
-        },
-        {
-            id: 6,
-            title: '10 Alimosho Rd',
-            date: 'May 24 9:30 PM',
-            price: '8000.00'
-        },
-        {
-            id: 5,
-            title: 'Ikoyi 106104',
-            date: 'May 24 5:20AM',
-            price: '6000.00'
-        },
-        {
-            id: 4,
-            title: '10 Alimosho Rd',
-            date: 'May 23 9:10 PM',
-            price: '7500.00'
-        },
-        {
-            id: 3,
-            title: 'Ikoyi 106104',
-            date: 'May 23 5:41AM',
-            price: '6500.00'
-        },
-        {
-            id: 2,
-            title: '10 Alimosho Rd',
-            date: 'May 22 8:34 PM',
-            price: '7500.00'
-        },
-        {
-            id: 1,
-            title: 'Ikoyi 106104',
-            date: 'May 22 5:30 AM',
-            price: '7000.00'
-        },
+        // {
+        //     id: 8,
+        //     title: '10 Alimosho Rd',
+        //     date: 'May 25 5:25 PM',
+        //     price: '4000.00'
+        // },
+        // {
+        //     id: 7,
+        //     title: 'Ikoyi 106104',
+        //     date: 'May 25 5:33AM',
+        //     price: '7500.00'
+        // },
+        // {
+        //     id: 6,
+        //     title: '10 Alimosho Rd',
+        //     date: 'May 24 9:30 PM',
+        //     price: '8000.00'
+        // },
+        // {
+        //     id: 5,
+        //     title: 'Ikoyi 106104',
+        //     date: 'May 24 5:20AM',
+        //     price: '6000.00'
+        // },
+        // {
+        //     id: 4,
+        //     title: '10 Alimosho Rd',
+        //     date: 'May 23 9:10 PM',
+        //     price: '7500.00'
+        // },
+        // {
+        //     id: 3,
+        //     title: 'Ikoyi 106104',
+        //     date: 'May 23 5:41AM',
+        //     price: '6500.00'
+        // },
+        // {
+        //     id: 2,
+        //     title: '10 Alimosho Rd',
+        //     date: 'May 22 8:34 PM',
+        //     price: '7500.00'
+        // },
+        // {
+        //     id: 1,
+        //     title: 'Ikoyi 106104',
+        //     date: 'May 22 5:30 AM',
+        //     price: '7000.00'
+        // },
           
         
-        // {
-        //     id: 9,
-        //     title: '24b Eric Moore Street ',
-        //     date: 'May 30 9:00 AM',
-        //     price: '4200.00'
-        // },
-        // {
-        //     id: 10,
-        //     title: '12 Gloryfield Avenue',
-        //     date: 'May 30 5:10 PM',
-        //     price: '9700.00'
-        // },
+
+        {
+            id: 10,
+            title: '12 Gloryfield Avenue',
+            date: 'May 30 5:10 PM',
+            price: '9700.00'
+        },
+        {
+            id: 9,
+            title: '24b Eric Moore Street ',
+            date: 'May 30 9:00 AM',
+            price: '4200.00'
+        },
     ]
   return (
     <div>
