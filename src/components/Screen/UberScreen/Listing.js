@@ -105,9 +105,16 @@ function Listing() {
         ]
   return (
     <div>
+    <hr style={{
+                    marginLeft: "25%",
+                    backgroundColor: "rgba(236, 236, 236)",
+                    border: 'none',
+                    height: 1,
+                }}/>
         {
             list && list.map(lis => (
                 <div key={lis.id}>
+                
                 <div  className='listsCont'>
                     <div className='lists'>
                         <div className='imag'>
