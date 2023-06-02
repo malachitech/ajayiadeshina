@@ -61,7 +61,7 @@
 .lists{
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
 }
 .listsItemsCont{
     margin-left: 20px;
@@ -72,7 +72,7 @@
 
 .rightarrow{
     color: silver;
-    font-size: 30px;
+    font-size: 20px;
     
     
 }
