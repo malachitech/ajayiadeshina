@@ -2,7 +2,7 @@ import React from 'react'
 import LinkBtn from '../../Button/LinkBtn'
 import styles from './Footer.module.css'
 import { BsFacebook, BsLinkedin, BsTwitter, BsInstagram } from "react-icons/bs";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 function Footer({darkMode}) {
     
   return (
@@ -52,7 +52,7 @@ function Footer({darkMode}) {
         <div className={styles.owner}>
             <p>
                 ADESHINA AJAYI
-            <Link to='/uber'>uber</Link>
+            {/* <Link to='/uber'>uber</Link> */}
             </p>
         </div>
 
