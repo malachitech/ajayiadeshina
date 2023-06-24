@@ -48,7 +48,6 @@ function Navbar({toggleDarkMode, darkMode}) {
             <Link to='/media'>Media Mention</Link>
             <Link to='/articles'>Blockchain Articles</Link>
             <Link to='/testimonies'>Testimonies</Link>
-            <Link to='/uber'>uber</Link>
             <Link to='/works'>Work</Link>
             <div className={styles.owner}>
                 <LinkBtn route='http://www.digital-focus.org/' color='black' bg='goldenrod' text='Go to Digital Focus' />
@@ -79,7 +78,6 @@ function Navbar({toggleDarkMode, darkMode}) {
                 <Link to='/media' onClick={showNavbarToggler}>Media Mention</Link>
                 <Link to='/articles' onClick={showNavbarToggler}>Blockchain Articles</Link>
                 <Link to='/testimonies' onClick={showNavbarToggler}>Testimonies</Link>
-                <Link to='/uber'>uber</Link>
                 <Link to='/works' onClick={showNavbarToggler}>Work</Link>
 
                     <div className={styles.socials}>
