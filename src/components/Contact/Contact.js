@@ -16,7 +16,7 @@ function Contact() {
 
             <p className={styles.phone}>
                 <SubTitle text='Phone' />
-                09053515713
+                (773) 458-7489
             </p>
 
             <p className={styles.email}>
