@@ -12,8 +12,7 @@ function Contact() {
         <div className={styles.contactdecription}>
             <p className={styles.address}>
                 <SubTitle text='Address' />
-                Plot  7, Close A, Adfarm Estate, Alakuko.
-            </p>
+8259 South Marshfield Chicago Illinois 60620            </p>
 
             <p className={styles.phone}>
                 <SubTitle text='Phone' />
